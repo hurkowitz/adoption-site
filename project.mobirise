@@ -1,0 +1,556 @@
+{
+  "settings": {
+    "name": "The Cooney-Urkowitz Adoptive Parents in Waiting",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": [
+        "#a2e8bf",
+        "#c9cde8",
+        "#414141",
+        "#f5f5f5",
+        "#817b7b",
+        "#a7a7a7",
+        "#9dffeb"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "siteFonts": [],
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "siteUrl": "",
+    "sitemapSwitcherAuto": "on",
+    "favicon": "",
+    "noImageResize": "",
+    "cookiesAlert": "",
+    "google-analytics": "",
+    "versionFirst": "4.7.7",
+    "uniqCompNum": 19,
+    "versionPublish": "4.7.7",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/toronto-reflection-pond-1400x933.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Tyler &amp; Hannah Adoptive Parents in Waiting",
+          "text": "<p>We are so excited that you are reading our profile. It would be a dream come true for us to adopt a child into what we promise will be a loving home.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"index.html#content5-2\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-0",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "text-align": "left",
+              "color": "#414141"
+            },
+            ".lead P": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "text-align": "left",
+              "color": "#414141"
+            },
+            ".btn": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          }
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#c9cde8",
+            "hamburgerColor": "#414141"
+          },
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-info-outline btn-info\" data-app-selector=\".navbar-nav .btn\" href=\"https://mobirise.com\">Download Our Profile</a></li>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#content4-h\"><span class=\"mbrib-speed mbr-iconfont mbr-iconfont-btn-parent\" style=\"color: rgb(65, 65, 65);\"></span>Quick Facts</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#content5-2\"><span class=\"mbrib-users mbr-iconfont mbr-iconfont-btn-parent\" style=\"color: rgb(65, 65, 65);\"></span>About us</a></li>    <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#testimonials1-g\"><span class=\"mbrib-hearth mbr-iconfont mbr-iconfont-btn-parent\" style=\"color: rgb(65, 65, 65);\"></span>Our Story</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#gallery1-1\"><span class=\"mbrib-image-gallery mbr-iconfont mbr-iconfont-btn-parent\" style=\"color: rgb(65, 65, 65);\"></span>Image Gallery</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#form1-i\"><span class=\"mbrib-contact-form mbr-iconfont mbr-iconfont-btn-parent\" style=\"color: rgb(65, 65, 65);\"></span>Contact us</a></li>",
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"#top\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Home</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-5",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#414141"
+            },
+            ".nav-link": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/newton-lake-park-700x350.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "Hi there!",
+          "caption": "<p>Our names are Hannah and Tyler, together we want to fill our future child's life with creativity, knowledge, happiness, and travel. Adoption is the right choice for us because we confident we have the emotional inteligence that kids need.</p><p>Thank you for choosing adoption. While we know that this is a significant decision you are making, we won’t pretend to know what’s it’s like. We are here to support you and facilitate whatever level of openness you want in your relationship with your child.</p><p><br></p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#414141",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "P": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "color": "#414141"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box1",
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "<i>\"We look at adoption as a very sacred exchange. It was not done lightly on either side. I would dedicate my life to this child.</i><i>\" &nbsp;Jamie Lee Curtis</i>",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"index.html#form1-i\" data-toolbar=\"-mbrBtnMove\">Contact us today!</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-e",
+          "_styles": {
+            "H2": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "color": "#817b7b"
+            },
+            "I": {
+              "font-size": "30px"
+            },
+            ".btn": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showCaptions": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": 4,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/cooper-river-park-1-2000x1333.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Where we live",
+          "caption1": "Collingswood, New Jersey",
+          "title2": "Neighborhood",
+          "caption2": "Small town 10 minutes outside of Philadelphia",
+          "title3": "Other Children",
+          "caption3": "None yet, though our future child will have 3 first cousins.",
+          "title4": "Pets",
+          "caption4": "We have 2 cats, Yoga and Dandillion.",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-h",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "color": "#414141"
+            },
+            "H4": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "color": "#414141"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showName": true,
+            "showBio": true,
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "header": "Our Story",
+          "items": [
+            {
+              "authorName": "Tyler Cooney",
+              "authorBio": "Registered Architect in Philadelphia, Pennsylvania",
+              "text": "<p><i>I grew up Belmawr, New Jersey and Limerick, Pennsylvania. My extended &nbsp;family lives all over the country.</i></p><p><i> I have a bachelors of science from Clemson University where I studied Architecture. And I have a Masters in Architecture from Temple University. I come from a large family and have 5 first cousins.&nbsp;</i></p><p><i>Before my mother passed she work in public health. My father is now a retired teacher and lives a close by in Limerick, Pennsylvania. I have one brother who lives in and works in Brooklyn, New York.</i></p>"
+            },
+            {
+              "authorName": "Hannah Urkowitz",
+              "authorBio": "Graphic Designer and Digital Marketing Professional",
+              "text": "<p><font face=\"Roboto, sans-serif\"><i>I am from Mount Laurel, New Jersey, a large portion of my extended family lives in the North East section of Philadelphia, Pennsylvania. </i></font></p><p><i style=\"font-size: 1rem;\">In 2007 I graduated from Albright College with a BA in Art and Digital Media. For two years I lived in Florence, Italy where I completed a Masters program at Accademia Italiana. </i></p><p><i style=\"font-size: 1rem;\">My parents live a short distance from our home. My father is a Business Technology Analyst in Phildelphia. My mother owns her own business and works as a dog walker / pet sitter. I have one sister who also lives close by. She has three bright children, one boy and two girls.</i><br></p>"
+            },
+            {
+              "authorName": "Our love story.",
+              "authorBio": "Married June, 28 2015",
+              "text": "<p><em>Like a lot couples these days Tyler and Hannah met on Match.com. When they instantly felt connection to one another because their love of travel, food, music, culture, education, and more! &nbsp;Later that year they into a small apartment together in Collingswood, New Jersey. They adopted their first cat that they named Yoga.&nbsp;</em></p><p><em>On June 28, 2015 they were married at Front &amp; Palmer in Philadelphia. Later that year they purchased their first home in Collingswood, New Jersey. Then adopted a their second cat Dandie. But their family is still not complete, they would like to fill their lives with children.</em></p>"
+            }
+          ],
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-g",
+          "testimonial": [
+            {
+              "authorName": "Tyler Cooney",
+              "authorBio": "Registered Architect in Philadelphia, Pennsylvania",
+              "text": "<p><i>I grew up Belmawr, New Jersey and Limerick, Pennsylvania. My extended &nbsp;family lives all over the country.</i></p><p><i> I have a bachelors of science from Clemson University where I studied Architecture. And I have a Masters in Architecture from Temple University. I come from a large family and have 5 first cousins.&nbsp;</i></p><p><i>Before my mother passed she work in public health. My father is now a retired teacher and lives a close by in Limerick, Pennsylvania. I have one brother who lives in and works in Brooklyn, New York.</i></p>"
+            },
+            {
+              "authorName": "Hannah Urkowitz",
+              "authorBio": "Graphic Designer and Digital Marketing Professional",
+              "text": "<p><font face=\"Roboto, sans-serif\"><i>I am from Mount Laurel, New Jersey, a large portion of my extended family lives in the North East section of Philadelphia, Pennsylvania. </i></font></p><p><i style=\"font-size: 1rem;\">In 2007 I graduated from Albright College with a BA in Art and Digital Media. For two years I lived in Florence, Italy where I completed a Masters program at Accademia Italiana. </i></p><p><i style=\"font-size: 1rem;\">My parents live a short distance from our home. My father is a Business Technology Analyst in Phildelphia. My mother owns her own business and works as a dog walker / pet sitter. I have one sister who also lives close by. She has three bright children, one boy and two girls.</i><br></p>"
+            },
+            {
+              "authorName": "Our love story.",
+              "authorBio": "Married June, 28 2015",
+              "text": "<p><em>Like a lot couples these days Tyler and Hannah met on Match.com. When they instantly felt connection to one another because their love of travel, food, music, culture, education, and more! &nbsp;Later that year they into a small apartment together in Collingswood, New Jersey. They adopted their first cat that they named Yoga.&nbsp;</em></p><p><em>On June 28, 2015 they were married at Front &amp; Palmer in Philadelphia. Later that year they purchased their first home in Collingswood, New Jersey. Then adopted a their second cat Dandie. But their family is still not complete, they would like to fill their lives with children.</em></p>"
+            }
+          ],
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#414141",
+              "text-align": "right",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            ".card-block I": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            ".card-block EM": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/observation-deck-1920x1280.png",
+                "thumb": "@PROJECT_PATH@/assets/images/observation-deck-1920x1280-800x533.png",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/magic-gardens-philadelphia-1920x1280.png",
+                "thumb": "@PROJECT_PATH@/assets/images/magic-gardens-philadelphia-1920x1280-800x533.png",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/wedding-frontandpalmer-2015-1920x1280.png",
+                "thumb": "@PROJECT_PATH@/assets/images/wedding-frontandpalmer-2015-1920x1280-800x533.png",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/bowl-over-cancer-chemoclothes-1920x1280.png",
+                "thumb": "@PROJECT_PATH@/assets/images/bowl-over-cancer-chemoclothes-1920x1280-800x533.png",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/seaturtletripmexico-1920x1280.png",
+                "thumb": "@PROJECT_PATH@/assets/images/seaturtletripmexico-1920x1280-800x533.png",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/goat-wedding-cutout-1920x1280.png",
+                "thumb": "@PROJECT_PATH@/assets/images/goat-wedding-cutout-1920x1280-800x533.png",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/joeandchelseawedding-1920x1280.png",
+                "thumb": "@PROJECT_PATH@/assets/images/joeandchelseawedding-1920x1280-800x533.png",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/cute-photo-fancyrestaurant-1920x1280.png",
+                "thumb": "@PROJECT_PATH@/assets/images/cute-photo-fancyrestaurant-1920x1280-800x533.png",
+                "active": true,
+                "alt": "",
+                "title": ""
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-1"
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "address": "Collingswood, New Jersey",
+              "placeId": "ChIJx-nxAk_JxokRaSwJ3_d9FrA",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-8"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Contact us today!",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info-outline btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send Now</a>",
+          "form": {
+            "action": "hannahlurkowitz@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-i",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#414141",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            ".btn": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#c9cde8",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<br>© Copyright 2018 all rights reserved of Hannah Linn Urkowitz 2018. Please do not reproduce without the expressed written consent of Hannah Linn Urkowitz and Tyler Corey Cooney.",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-b",
+          "_styles": {
+            "P": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
